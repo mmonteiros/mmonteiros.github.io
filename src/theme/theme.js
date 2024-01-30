@@ -1,6 +1,6 @@
 /* eslint-disable */
-import { 
-    blueThemegirl, blueThemeboy, bwThemeboy, bwThemegirl, greenThemeboy, greenThemegirl, orangeThemeboy, 
+import {
+    blueThemegirl, blueThemeboy, bwThemeboy, bwThemegirl, greenThemeboy, greenThemegirl, orangeThemeboy,
     orangeThemegirl, pinkThemeboy, pinkThemegirl, purpleThemeboy, purpleThemegirl, redThemeboy, redThemegirl, yellowThemeboy,
     yellowThemegirl,eduBlack,eduBlue,eduGreen,eduOrange,eduPink,eduPurple,eduRed,eduYellow,expBlack,expBlue,expGreen,expOrange,
     expPink,expPurple,expRed,expYellow,contactsBlack,contactsBlue,contactsGreen,contactsOrange,contactsPink,contactsPurple,
@@ -81,6 +81,28 @@ export const bwThemeDark = {
     primary50: '#B6B6B680',
     primary30: '#B6B6B64d',
     secondary: '#212121',
+    secondary70: '#212121b3',
+    secondary50: '#21212180',
+    tertiary: '#eaeaea',
+    tertiary80: '#eaeaeacc',
+    tertiary70: '#eaeaeab3',
+    tertiary50: '#eaeaea80',
+    aboutimg1: bwThemeboy,
+    aboutimg2: bwThemegirl,
+    eduimg: eduBlack,
+    expimg: expBlack,
+    contactsimg: contactsBlack
+}
+
+export const personalizeTheme = {
+    type: 'dark',
+    primary: '#C5E0F5',
+    primary400: '#95AFC3',
+    primary600: '#91ACC0',
+    primary80: '#678194',
+    primary50: '#3C5667',
+    primary30: '#344E5F',
+    secondary: '#122E3E',
     secondary70: '#212121b3',
     secondary50: '#21212180',
     tertiary: '#eaeaea',
